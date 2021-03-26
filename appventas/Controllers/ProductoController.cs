@@ -31,7 +31,7 @@ namespace appventas.Controllers
             String message ="";
             
                 result = (objProducto.Precio * objProducto.Cantidad)*1.18;
-                message ="El resultado es " + result;
+                message ="El total es " + result;
             
             
             ViewData["Message"] = message;
